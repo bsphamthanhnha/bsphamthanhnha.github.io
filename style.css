@@ -1,33 +1,47 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background: #f4f8fb;
-}
-
-header {
-    background: #007bff;
-    color: white;
-    padding: 20px;
+    margin: 20px;
     text-align: center;
 }
 
-section {
-    padding: 20px;
+.image-row {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.image-row img {
+    max-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
 }
 
 .contact-buttons {
-    position: fixed;
-    bottom: 20px;
-    right: 20px;
+    margin-top: 20px;
 }
 
 .call-button, .zalo-button {
     display: inline-block;
-    margin: 5px;
-    padding: 10px 15px;
-    background: #007bff;
-    color: white;
+    padding: 10px 20px;
+    margin: 10px;
     text-decoration: none;
+    color: white;
     border-radius: 5px;
 }
+
+.call-button {
+    background-color: green;
+}
+
+.zalo-button {
+    background-color: blue;
+}
+header {
+    background-color: #007BFF;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
